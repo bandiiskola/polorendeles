@@ -21,3 +21,9 @@ function Szin()
             break;
     }
 }
+
+function Gepeles()
+{
+    document.getElementById("felirat").innerHTML=document.getElementById("betu").value
+    document.getElementById("sorszam").innerHTML=document.getElementById("szam").value
+}
