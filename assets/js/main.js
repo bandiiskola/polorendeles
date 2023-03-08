@@ -24,6 +24,6 @@ function Szin()
 
 function Gepeles()
 {
-    document.getElementById("felirat").innerHTML=document.getElementById("betu").value
+    document.getElementById("felirat").innerHTML=document.getElementById("betu").value.toUpperCase()
     document.getElementById("sorszam").innerHTML=document.getElementById("szam").value
 }
