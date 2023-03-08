@@ -1,7 +1,7 @@
 function Szin()
 {
     var szin=document.getElementById("valaszt").value
-    console.log(szin)
+    document.getElementById("kep").style.filter="grayscale(0)"
     switch(szin)
     {
         case "zold":
@@ -16,7 +16,8 @@ function Szin()
         case "narancs":
             document.getElementById("kep").src="assets/images/polo-narancs.png"
             break;
-        case "szuke":
+        case "szurke":
+            document.getElementById("kep").style.filter="grayscale(1)"
             break;
     }
 }
