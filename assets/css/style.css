@@ -9,6 +9,11 @@ body
     height: 600px;
 }
 
+#kep
+{
+    width: 100%
+}
+
 #felirat
 {
     position: relative;
