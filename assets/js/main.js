@@ -25,5 +25,16 @@ function Szin()
 function Gepeles()
 {
     document.getElementById("felirat").innerHTML=document.getElementById("betu").value.toUpperCase()
-    document.getElementById("sorszam").innerHTML=document.getElementById("szam").value
+    if(document.getElementById("szam").value>=1&&document.getElementById("szam").value<=99)
+    {
+        document.getElementById("sorszam").innerHTML=document.getElementById("szam").value
+    }
+    else if(document.getElementById("szam").value<1)
+    {
+        document.getElementById("sorszam").innerHTML=1
+    }
+    else if(document.getElementById("szam").value>99)
+    {
+        document.getElementById("sorszam").innerHTML=99
+    }
 }
