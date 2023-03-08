@@ -8,12 +8,22 @@ body
 {
     height: 600px;
     font-family: 'Tilt Warp', cursive;
-
 }
 
 #kep
 {
     width: 100%
+}
+
+#sorszam
+{
+    position: relative;
+    display: block;
+    top: -300px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 12vh;
 }
 
 #felirat
@@ -24,6 +34,7 @@ body
     z-index: 1;
     color: white;
     text-align: center;
+    font-size: 3vh;
 }
 
 .keret
